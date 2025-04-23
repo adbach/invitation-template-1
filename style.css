@@ -904,9 +904,9 @@ body {
   margin-bottom: 1rem;
 }
 
-.gallery .carousel-indicators button.thumbnail {
+/* .gallery .carousel-indicators button.thumbnail {
   width: 100vh;
-}
+} */
 .gallery .carousel-indicators button.thumbnail:not(.active) {
   opacity: 0.7;
 }
@@ -1021,10 +1021,6 @@ body {
   border-right-width: 14px;
   left: -13px;
   right: auto;
-}
-
-.gallery {
-  background-color: #f5f5f5;
 }
 
 .rsvp {
@@ -1156,6 +1152,7 @@ footer {
   padding: 3rem;
   background-color: var(--creame);
   color: #666666;
+  min-height: 100vh !important;
 }
 
 footer a {
